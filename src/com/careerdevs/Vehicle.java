@@ -15,11 +15,11 @@ public class Vehicle {
     }
 
     public String getVehicleMake() {
-        return carMake;
+        return vehicleMake;
     }
 
     public String getVehicleModel() {
-        return carModel;
+        return vehicleModel;
     }
 
     public int getIdNumber(){return idNumber; }
@@ -32,7 +32,7 @@ public class Vehicle {
         isRented = rented;
     }
     public String getName() {
-        return carMake + " " + carModel;
+        return vehicleMake + " " + vehicleModel;
     }
 
 
@@ -49,5 +49,4 @@ public class Vehicle {
                 '}';
     }
 }
-}
-}
+
